@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910DF7272C1BD9F900160D68 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910DF7262C1BD9F900160D68 /* FruitRowView.swift */; };
 		9153BAC32C18EBF100F64350 /* fructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153BAC22C18EBF100F64350 /* fructusApp.swift */; };
 		9153BAC52C18EBF100F64350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153BAC42C18EBF100F64350 /* ContentView.swift */; };
 		9153BAC72C18EBF300F64350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9153BAC62C18EBF300F64350 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		910DF7262C1BD9F900160D68 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		9153BABF2C18EBF100F64350 /* fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9153BAC22C18EBF100F64350 /* fructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fructusApp.swift; sourceTree = "<group>"; };
 		9153BAC42C18EBF100F64350 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,10 +63,10 @@
 		9153BAC12C18EBF100F64350 /* fructus */ = {
 			isa = PBXGroup;
 			children = (
-				917C56612C1A7E530022DCE4 /* Data */,
+				917C56542C196B710022DCE4 /* App */,
 				917C565E2C1A78BD0022DCE4 /* Model */,
 				917C56552C196C200022DCE4 /* View */,
-				917C56542C196B710022DCE4 /* App */,
+				917C56612C1A7E530022DCE4 /* Data */,
 				9153BAC62C18EBF300F64350 /* Assets.xcassets */,
 				9153BAC82C18EBF300F64350 /* Preview Content */,
 			);
@@ -94,6 +96,7 @@
 			children = (
 				917C56582C196CCF0022DCE4 /* FruitCardIView.swift */,
 				917C565A2C1A4B390022DCE4 /* StartButtonView.swift */,
+				910DF7262C1BD9F900160D68 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				917C56632C1A7E6D0022DCE4 /* FruitData.swift in Sources */,
 				917C56592C196CCF0022DCE4 /* FruitCardIView.swift in Sources */,
+				910DF7272C1BD9F900160D68 /* FruitRowView.swift in Sources */,
 				917C565B2C1A4B390022DCE4 /* StartButtonView.swift in Sources */,
 				9153BAC52C18EBF100F64350 /* ContentView.swift in Sources */,
 				917C565D2C1A542A0022DCE4 /* OnboardingView.swift in Sources */,
