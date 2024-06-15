@@ -10,12 +10,14 @@ import SwiftUI
 struct ContentView: View {
   var fruits: [Fruit] = fruitsData
   
-  var body: some View {
-    NavigationView{
-      List{
+  var body: some View{
+    NavigationView {
+      List {
         ForEach(fruits.shuffled()) { item in
-          FruitRowView(fruit: item)
-            .padding(.vertical, 4)
+          NavigationLink(destination: FruitDetailView(fruit: item)){
+            FruitRowView(fruit: item)
+              .padding(.vertical,4)
+          }
         }
       }
       .navigationTitle("Fruits")
@@ -24,5 +26,6 @@ struct ContentView: View {
 }
 
 #Preview {
-  ContentView(fruits: fruitsData)
+  FruitDetailView(fruit: fruitsData[0])
 }
+
